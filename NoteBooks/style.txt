@@ -1,0 +1,73 @@
+xtick.color: black
+ytick.color: black
+text.color: black
+lines.markeredgecolor: black
+patch.facecolor        : bc80bd
+patch.force_edgecolor  : True
+patch.linewidth: 0.4
+scatter.edgecolors: black
+grid.color: b1afb5
+axes.titlesize: 16
+legend.title_fontsize: 20
+xtick.labelsize: 20
+ytick.labelsize: 20
+#font.weight: bold
+xtick.direction: out
+ytick.direction : out
+
+ytick.right : True 
+xtick.labeltop : False
+xtick.top : True
+
+ytick.minor.visible: True   # visibility of minor ticks on y-axis
+ytick.major.left:    True    # draw y axis left major ticks
+ytick.major.right:   False    # draw y axis right major ticks
+ytick.minor.left:    True    # draw y axis left minor ticks
+ytick.minor.right:   False    # draw y axis right minor ticks
+ytick.alignment:     center_baseline  # alignment of yticks
+
+xtick.minor.visible: True   # visibility of minor ticks on x-axis
+xtick.major.top:     False    # draw x axis top major ticks
+xtick.major.bottom:  True    # draw x axis bottom major ticks
+xtick.minor.top:     False    # draw x axis top minor ticks
+xtick.minor.bottom:  True    # draw x axis bottom minor ticks
+xtick.alignment:     center  # alignment of xticks
+
+
+ytick.major.size: 12
+xtick.major.size: 12
+ytick.major.width: 2
+xtick.major.width: 2
+ytick.minor.size: 6
+xtick.minor.size: 6
+
+axes.labelsize: 12
+font.size: 10
+axes.prop_cycle : (cycler('color', ['bc80bd' ,'fb8072', 'b3de69','fdb462','fccde5','8dd3c7','ffed6f','bebada','80b1d3', 'ccebc5', 'd9d9d9']))
+mathtext.fontset: stix
+font.family: DeJavu Serif
+font.serif: Times New Roman
+
+lines.linewidth: 2
+
+legend.frameon: False
+legend.framealpha: 0.5
+legend.fontsize: 12
+legend.edgecolor: 0.4
+legend.borderpad: 0.2
+#legend.columnspacing: 1.5
+#legend.labelspacing:  0.4
+text.usetex: False
+axes.titlelocation: left
+axes.formatter.use_mathtext: True
+axes.autolimit_mode: round_numbers
+axes.labelpad: 0.1
+axes.formatter.limits: -4, 4
+axes.labelcolor: black
+axes.edgecolor: black
+axes.linewidth: 2.0
+axes.spines.right : True
+axes.spines.top : True
+axes.grid: False
+#figure.titlesize: 18
+#figure.dpi: 200
